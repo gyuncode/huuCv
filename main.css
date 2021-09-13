@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 1cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font: 12pt "Tahoma";
+}
+
+
+#header {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-around;
+}
+
+#name {
+    color: green;
+    margin-right: 290px;
+}
+
+#header #avatar>img {
+    height: 150px;
+    width: 100px;
+}
+
+#content {
+    display: flex;
+    margin-top: 9px;
+}
+
+h2 {
+    color: green;
+    padding-bottom: 9px;
+    border-bottom: green solid 1px;
+}
+
+h3 {
+    color: green;
+}
+
+#left-content {
+    padding: 0 50px;
+    flex-basis: 50%;
+}
+
+#information {
+    padding-bottom: 10px;
+}
+
+#work-experience {
+    padding-bottom: 10px;
+}
+
+#information>ul {
+    padding-left: 50px;
+    margin-top: 9px;
+}
+
+#work-experience>ul {
+    padding-left: 50px;
+    margin-top: 9px;
+}
+
+#target-details>ul {
+    padding-left: 50px;
+    margin-top: 9px;
+}
+
+#target-details {
+    padding: 0 20px;
+}
+
+#right-content {
+    padding: 0 50px;
+    flex-basis: 50%;
+}
+
+#education-details {
+    padding: 0 20px;
+}
+
+#education {
+    padding-bottom: 10px;
+}
+
+#objective {
+    padding-bottom: 10px;
+}
+
+#education-details>ul {
+    padding-left: 50px;
+    margin-top: 9px;
+}
+
+#skills-details {
+    padding: 0 20px;
+}
+
+#skills-details>ul {
+    padding-left: 50px;
+    margin-top: 9px;
+}
+
+@media print {
+    .container {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
