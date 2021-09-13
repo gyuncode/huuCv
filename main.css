@@ -30,7 +30,7 @@ body {
 }
 
 #name {
-    color: green;
+    color: #3366ff;
     margin-right: 290px;
 }
 
@@ -45,13 +45,13 @@ body {
 }
 
 h2 {
-    color: green;
+    color: #3366ff;
     padding-bottom: 9px;
-    border-bottom: green solid 1px;
+    border-bottom: #3366ff solid 1px;
 }
 
 h3 {
-    color: green;
+    color: #3366ff;
 }
 
 #left-content {
